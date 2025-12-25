@@ -33,6 +33,6 @@ func add(num1 int, num2 int) int {
 
 func sampleError() error {
 	var customErr error
-	customErr = errors.New("This is an error")
+	customErr = errors.New(": custom error")
 	return customErr
 }
