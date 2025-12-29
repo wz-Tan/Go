@@ -18,6 +18,7 @@ type owner struct {
 }
 
 // Interface (Classifies Structs Based off Common Functions)
+// Generalisation
 type engine interface {
 	isTankEmpty() bool
 }
